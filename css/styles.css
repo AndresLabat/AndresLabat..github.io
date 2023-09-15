@@ -106,3 +106,26 @@ body{
     object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
 }
 
+/* footer */
+
+.footer{
+    width: 100vw;
+    height: 3em;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}  
+
+.footer span{
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+
+.footer a {
+    color: #e74c3c;
+    margin-left: 0.3em;
+  }
+
+
