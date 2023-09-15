@@ -112,7 +112,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #73aa05;
     background: linear-gradient(to bottom, #466705 0%, #73aa05 20%, #73aa05 80%, #466705 100%);
     color: white;
     width: 100vw;
@@ -191,7 +190,7 @@ body{
     border-radius: 1.5em;
 }
 
-/* aside */
+/* ofertas */
 
 .ofertas{
     border: 0.1em solid black;
@@ -207,6 +206,32 @@ body{
     width: 100%;
     height: 100%;
     background-color: white;
+}
+
+.tituloOfertasInterior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #6d192a 0%, #AD2943 20%, #AD2943 80%, #6d192a 100%);
+    color: white;
+    width: 100vw;
+    height: 1.7em;
+    font-size: x-large;
+    font-family: 'Impact', sans-serif;
+}
+
+.divImagenesOfertas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerImgOferta{
+    width: 30vw;
+}
+
+.containerImgOferta img{
+    width: 100%;
+    height: 100%;
 }
 
 /* footer */
