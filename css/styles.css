@@ -108,6 +108,25 @@ body{
 
 /* Cards */
 
+.tituloCarta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #73aa05;
+    background: linear-gradient(to bottom, #466705 0%, #73aa05 20%, #73aa05 80%, #466705 100%);
+    color: white;
+    width: 100vw;
+    height: 1.7em;
+    font-size: xx-large;
+    font-family: 'Impact', sans-serif;
+}
+
+.separacionTituloCarta{
+    background-color: white;
+    width: 100vw;
+    height: 0.4em;
+}
+
 .cards{
     width: 100vw;
     height: 100%;
