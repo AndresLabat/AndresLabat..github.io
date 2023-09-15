@@ -93,3 +93,16 @@ body{
     align-items: center;
     font-size: larger;
 }
+
+/* Carousel */
+
+.carousel-item {
+    height: 50em;
+  }
+
+.carousel-item img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
+}
+
