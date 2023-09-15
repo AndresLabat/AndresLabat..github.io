@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100vw;
+    height: 5em;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25em;
+}
+
+.gameating{
+    padding-top: 0.3em;
+    text-align: center;
+    color: white;
+    font-family: 'Impact', sans-serif;
+}
+
+.orange{
+    color: #97E300;
+    padding: 0;
+}
+
+#logo{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+
+.divLogo{
+    height: 5em;
+    width: 8em;
+}
+
+.divLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.divJostick{
+    margin-top: 0.2em;
+    height: 4em;
+    width: 5em;
+}
+
+.divJostick img{
+    width: 100%;
+    height: 100%;
+}
+
+#ubication{
+    width: 10em;
+    display: flex;
+    align-items: center;
+    padding-right: 2em;
+    background-color: black;
+}
+
+.divImgUbication{
+    height: 3em;
+    width: 3.5em;
+}
+
+.divImgUbication img{
+    width: 100%;
+    height: 100%;
+}
+
+.city{
+    font-size: large;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
