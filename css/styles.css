@@ -120,6 +120,15 @@ body{
     font-family: 'Impact', sans-serif;
 }
 
+.blue{
+    background: linear-gradient(to bottom, rgb(2, 96, 159) 0%, rgb(0, 153, 255) 20%, rgb(0, 153, 255) 80%, rgb(2, 96, 159) 100%);
+}
+
+.yellow{
+    background: linear-gradient(to bottom, rgb(142, 142, 2) 0%, rgb(211, 211, 3) 20%, rgb(211, 211, 3) 80%, rgb(142, 142, 2) 100%);
+    background-color: yellow;
+}
+
 .separacionTituloCarta{
     background-color: white;
     width: 100vw;
