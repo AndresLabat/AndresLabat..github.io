@@ -261,6 +261,12 @@ body{
     padding-top: 0.4em;
 }
 
+.separacionGrande{
+    background-color: white;
+    width: 100vw;
+    height: 5em;
+}
+
 /* hovers de los platos de comida */
 
 .kirby:hover{
@@ -301,7 +307,8 @@ body{
 
 .divImagenesOfertas{
     display: flex;
-    justify-content: space-around;
+    background: linear-gradient(to bottom, rgb(140, 140, 140) 0%, rgb(227, 226, 226) 8%, rgb(227, 226, 226)92%, rgb(140, 140, 140) 100%);
+   
 }
 
 .containerImgOferta{
@@ -312,6 +319,23 @@ body{
     width: 100%;
     height: 100%;
 }
+
+/* carousel ofertas */
+
+.primerDiv, .tercerDiv, .quintoDiv{
+    width: 20vw;
+    height: 24em;
+
+}
+
+.segundoDiv, .cuartoDiv{
+    width: 20vw;
+    height: 24em;
+}
+
+.carouselOfertas {
+    height: 24em;
+  }
 
 /* footer */
 
