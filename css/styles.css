@@ -306,9 +306,9 @@ body{
 }
 
 .divImagenesOfertas{
-    display: flex;
-    background: linear-gradient(to bottom, rgb(140, 140, 140) 0%, rgb(227, 226, 226) 8%, rgb(227, 226, 226)92%, rgb(140, 140, 140) 100%);
-   
+    background: linear-gradient(to bottom, #be8c969a 0%, #be8c963b 8%, #be8c963b 92%, #be8c969a 100%);
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .containerImgOferta{
@@ -324,18 +324,22 @@ body{
 
 .primerDiv, .tercerDiv, .quintoDiv{
     width: 20vw;
-    height: 24em;
-
+    height: 26em;
 }
 
 .segundoDiv, .cuartoDiv{
     width: 20vw;
-    height: 24em;
+    height: 26em;
 }
 
 .carouselOfertas {
-    height: 24em;
-  }
+    height: 26em;
+}
+
+.carousel-inner{
+    border-radius: 4em;
+    border: 0.2em solid #6d192a;
+}
 
 /* footer */
 
