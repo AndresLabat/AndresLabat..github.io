@@ -182,6 +182,16 @@ body{
     font-weight: bold; 
 }
 
+/* Conocenos */
+
+.divInfo{
+    background-image: url("../img/nsw_doc.png");
+    color: black;
+    padding: 1em;
+    width: 86vw;
+    border: 0.1em solid black;
+}
+
 /* location */
 
 .location{
