@@ -147,7 +147,7 @@ body{
 }
 
 .divInput{
-    padding: 0.3em;
+    padding: 0.5em;
 }
 
 .textArea{
@@ -252,14 +252,26 @@ body{
 .centrarTexto:hover{
     background: linear-gradient(to bottom, #6d192a 0%, #ce4762 20%, #ce4762 80%, #6d192a 100%);
     color: white;
-
 }
 
 
+/* Jobs */
 
+.divWork{
+    background-image: url("../img/hell.jpg");
+    color: white;
+    padding: 1em;
+    width: 86vw;
+    border: 0.1em solid black;
+}
 
+.colorOrange{
+    color: rgb(242, 169, 81);
+}
 
-
+.white{
+    color: white;
+}
 
 /* location */
 
