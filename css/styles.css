@@ -399,6 +399,9 @@ body{
 
 .divContentImgCards{
     width: 16em;
+    height: 10em;
+    object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
+    border: 0.1em solid gray;
 }
 
 .divContentImgCards img{
@@ -412,6 +415,7 @@ body{
     height: 8em;
     margin-top: 1em;
     position: relative;
+    border: 0.1em solid gray;
 }
 
 .foodDescription img{
@@ -441,6 +445,22 @@ body{
     height: 24em;
     border-radius: 1.5em;
 }
+
+.chocobo:hover{
+    background-image: url("../img/Videojuegos/Chocobo2.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ofertas */
 
