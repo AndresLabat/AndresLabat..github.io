@@ -441,13 +441,109 @@ body{
 /* hovers de los platos de comida */
 
 .kirby:hover{
-    background-image: url("../img/Videojuegos/kirby2.jpg");
+    background-image: url("../img/Videojuegos/kirby2.png");
     height: 24em;
     border-radius: 1.5em;
 }
 
 .chocobo:hover{
-    background-image: url("../img/Videojuegos/Chocobo2.jpg");
+    background-image: url("../img/Videojuegos/Chocobo.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.mario:hover{
+    background-image: url("../img/Videojuegos/Mario\ Bros.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.diablo:hover{
+    background-image: url("../img/Videojuegos/Diablo.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.kratos:hover{
+    background-image: url("../img/Videojuegos/GodOfWar.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.theLast:hover{
+    background-image: url("../img/Videojuegos/TheLastOfUs.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.NFS:hover{
+    background-image: url("../img/Videojuegos/NFS.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.sonic:hover{
+    background-image: url("../img/Videojuegos/Sonic.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.MGS:hover{
+    background-image: url("../img/Videojuegos/MetalGear.png");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.starcraft:hover{
+    background-image: url("../img/Videojuegos/Starcraft.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.bloodborne:hover{
+    background-image: url("../img/Videojuegos/Bloodborne.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.zelda:hover{
+    background-image: url("../img/Videojuegos/Zelda.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.gears:hover{
+    background-image: url("../img/Videojuegos/Gears.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.pikachu:hover{
+    background-image: url("../img/Videojuegos/Pikachu.png");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.resident:hover{
+    background-image: url("../img/Videojuegos/Resident.jpg");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.kart:hover{
+    background-image: url("../img/Videojuegos/Mario\ kart.png");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.assasin:hover{
+    background-image: url("../img/Videojuegos/Assassin.png");
+    height: 24em;
+    border-radius: 1.5em;
+}
+
+.lol:hover{
+    background-image: url("../img/Videojuegos/Lol.png");
     height: 24em;
     border-radius: 1.5em;
 }
