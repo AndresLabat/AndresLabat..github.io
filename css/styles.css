@@ -87,14 +87,13 @@ body{
 }
 
 .city{
-    font-size: large;
     color: white;
     display: flex;
     align-items: center;
     font-size: larger;
 }
 
-/* Carousel */
+/* Carousel Index */
 
 .carousel-item {
     height: 50em;
@@ -104,6 +103,83 @@ body{
     width: 50%;
     height: 100%;
     object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
+}
+
+.borderBlack{
+    border: 0.1em solid black;
+}
+
+/* Formulario */
+
+.centrarFormulario{
+    display: flex;
+}
+
+.empujaDivFormulario{
+    width: 7vw;
+    background-image: url("../img/universo.jpg");
+}
+
+.divFormulario{
+    background-image: url("../img/fondo\ formulario.jpg");
+    color: white;
+    padding: 1em;
+    width: 86vw;
+    border: 0.1em solid black;
+}
+
+#textoIndicacionesFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(242, 169, 81);
+    background-color: white;
+}
+
+.labelForm{
+    width: 10em;
+}
+
+.colorBlack{
+    color: black;
+    font-style: italic; 
+}
+
+.divInput{
+    padding: 0.3em;
+}
+
+.textArea{
+    margin-top: 0.3em;
+}
+
+#buttonForm{
+    width: 6em;
+    height: 2em;
+    border: 0.1em solid black;
+    color: white;
+    background: linear-gradient(to bottom, rgb(145, 102, 49) 0%, rgb(242, 169, 81) 20%, rgb(242, 169, 81)80%, rgb(145, 102, 49) 100%);
+    border-radius: 0.7em;
+    margin-left: 0.5em;
+    font-size: large;
+    font-weight: bold;  
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#buttonForm:hover{
+    background: linear-gradient(to bottom, rgb(140, 140, 140) 0%, rgb(227, 226, 226) 20%, rgb(227, 226, 226)80%, rgb(140, 140, 140) 100%);
+    color: rgb(221, 153, 71);
+}
+
+#anclaHorario{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
 }
 
 /* location */
@@ -282,8 +358,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5em;
-    background-image: url("../img/personajes.jpg");
+    padding: 0.8em;
+    background-image: url("../img/mandos.jpg");
 }
 
 .ofertasInterior{
@@ -336,7 +412,7 @@ body{
     height: 26em;
 }
 
-.carousel-inner{
+.borderRadius{
     border-radius: 4em;
     border: 0.2em solid #6d192a;
 }
