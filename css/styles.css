@@ -595,16 +595,6 @@ body{
 
 /* carousel ofertas */
 
-.primerDiv, .tercerDiv, .quintoDiv{
-    width: 20vw;
-    height: 26em;
-}
-
-.segundoDiv, .cuartoDiv{
-    width: 20vw;
-    height: 26em;
-}
-
 .carouselOfertas {
     height: 26em;
 }
