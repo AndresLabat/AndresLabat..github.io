@@ -240,7 +240,21 @@ Todo el diseño del sitio web es responsive, lo que significa que se adapta a di
    </div>   
 </p>
 
-### 7. Dudas o problemas técnicos
+### 7. Fallo responsive en el carousel de Index.html
+
+- **🚧Problema**: El carousel se va haciendo más estrecho a medida que disminuye la pantalla pero no menos alto, para evitarlo he querido que sea display flex, pero entra en conflicto con Bootstrap y tiene un comportamiento inesperado.
+
+   - **💡Solución**: Creo que la manera de arreglarlo seria meter el div en el que esta contenido el carousel dentro de otro div, y a este darle la característica de display flex, y alguna característica más que se me escapa, ya que lo he probado y sigue sin corregirse..
+<p>
+   <div align="center">
+      <img src="img/Capturas de pantalla/Fallo responsive en index.html.jpeg" style="max-width: 100%;" width="500">
+   </div>    
+   <div align="center">
+      <em><b>No mantiene la proporción correctamente.</b></em>
+   </div>   
+</p>
+
+### 8. Dudas o problemas técnicos
 
 - **🚧Problema**: Si tienes cualquier otra duda o experimentas problemas técnicos que no se mencionan aquí, por favor, no dudes en contactarme a través de la información de contacto proporcionada en la parte inferior de cada sección de la página. Estoy aquí para aprender y resolver cualquier problema que puedas tener.
 
