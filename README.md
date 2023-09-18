@@ -102,7 +102,7 @@ El proyecto GAMEATING consta de varios archivos HTML y un archivo CSS:
 
 ## 🍃Ramas del Repositorio
 
-Este proyecto se desarrolló en una rama separada llamada "dev" que se creó desde la rama principal ("master"). Todos los commits se realizaron en la rama "dev" durante el desarrollo del proyecto.
+Este proyecto se desarrolló en una rama separada llamada "dev" que se creó desde la rama principal ("master"). Todos los commits se realizaron en la rama "dev" durante el desarrollo del proyecto, una vez finalizado, se ha realizado un merge a la rama master, y un último commit.
 
 ## ⚙️Instrucciones de Uso
 
