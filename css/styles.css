@@ -163,6 +163,8 @@ body{
 
 .textArea{
     margin-top: 0.3em;
+    height: 8em;
+    max-height: 8em;
 }
 
 #buttonForm{

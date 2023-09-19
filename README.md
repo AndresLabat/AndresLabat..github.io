@@ -267,9 +267,9 @@ Si deseas contribuir a este proyecto, puedes realizar un fork del repositorio en
 Puedes hacer esto de la siguiente forma:
 
 1. Haz un fork de este repositorio.
-2. Crea una nueva rama para tu contribución: `git checkout -b tu-nueva-caracteristica`
+2. Crea una nueva rama para tu contribución: `git checkout -b tu-nueva-característica`
 3. Realiza tus cambios y commitea: `git commit -m "Añade una nueva característica"`
-4. Envía tus cambios al repositorio: `git push origin tu-nueva-caracteristica`
+4. Envía tus cambios al repositorio: `git push origin tu-nueva-característica`
 5. Crea una solicitud de extracción en GitHub.
 
 ## 📝Autor
