@@ -100,7 +100,7 @@ body{
     object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
 }
 
-@media (max-width: 1200px) { /* Establece una altura fija para las imágenes en dispositivos móviles */
+@media (max-width: 1200px) { /* Establece una altura fija para las imágenes en algunas resoluciones de ordenadores portátiles */
     .carousel-item img {
         max-height: 40em;
         width: 100%;
