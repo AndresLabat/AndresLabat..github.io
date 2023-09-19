@@ -244,7 +244,7 @@ Todo el diseño del sitio web es responsive, lo que significa que se adapta a di
 
 - **🚧Problema**: El carousel se va haciendo más estrecho a medida que disminuye la pantalla pero no menos alto, para evitarlo he querido que sea display flex, pero entra en conflicto con Bootstrap y tiene un comportamiento inesperado.
 
-   - **💡Solución**: Creo que la manera de arreglarlo seria meter el div en el que esta contenido el carousel dentro de otro div, y a este darle la característica de display flex, y alguna característica más que se me escapa, ya que lo he probado y sigue sin corregirse..
+   - **💡Solución**: He conseguido corregirlo, la solución era usar una regla "@media" para diferentes resoluciones de pantalla que hagan que la altura máxima del div que contiene las imagenes varíe según la resolución de la misma.
 <p>
    <div align="center">
       <img src="img/Capturas de pantalla/Fallo responsive en index.html.jpeg" style="max-width: 100%;" width="500">
