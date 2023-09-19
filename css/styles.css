@@ -95,7 +95,7 @@ body{
 /* Carousel Index */
 
 .carousel-item img {
-    max-height: 56em;
+    max-height: 52em;
     width: 100%;
     object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
 }
@@ -386,7 +386,6 @@ body{
 .cards{
     width: 100vw;
     height: 100%;
-    border: 0.2em solid black;
     background-image: url("../img/universo.jpg");
 }
 
@@ -401,11 +400,17 @@ body{
     margin:  1em;
 }
 
-.NombreComida{
-    font-size: larger;
-    padding: 0.5em;
-    color: #73aa05;
-    font-weight: bold;  
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .box{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(to bottom, rgb(140, 140, 140) 0%, rgb(227, 226, 226) 8%, rgb(227, 226, 226)92%, rgb(140, 140, 140) 100%);
+        height: 25.5em;
+        width: 14.5em;
+        border-radius: 1.5em;
+    }
 }
 
 .divContentImgCards{
@@ -415,10 +420,28 @@ body{
     border: 0.1em solid gray;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .divContentImgCards{
+        width: 14em;
+        height: 9em;
+        object-fit: cover; /* Escalar y recortar las imágenes para que se ajusten */
+        border: 0.1em solid gray;
+        margin-left: 0.25em;
+    }
+}
+    
+.NombreComida{
+    font-size: larger;
+    padding: 0.5em;
+    color: #73aa05;
+    font-weight: bold;  
+}
+
 .divContentImgCards img{
     width: 100%;
     height: 100%;
 }
+
 
 .foodDescription{
     background-color: white;
@@ -427,6 +450,18 @@ body{
     margin-top: 1em;
     position: relative;
     border: 0.1em solid gray;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .foodDescription{
+        background-color: white;
+        width: 14em;
+        height: 11em;
+        margin-top: 1em;
+        margin-left: 0.25em;
+        position: relative;
+        border: 0.1em solid gray;
+    }
 }
 
 .foodDescription img{
@@ -457,10 +492,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .kirby:hover{
+        background-image: url("../img/Videojuegos/kirby2.png");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
+}
+
 .chocobo:hover{
     background-image: url("../img/Videojuegos/Chocobo.jpg");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .chocobo:hover{
+        background-image: url("../img/Videojuegos/Chocobo.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
 }
 
 .mario:hover{
@@ -469,10 +520,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .mario:hover{
+        background-image: url("../img/Videojuegos/Mario\ Bros.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
+}
+
 .diablo:hover{
     background-image: url("../img/Videojuegos/Diablo.jpg");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .diablo:hover{
+        background-image: url("../img/Videojuegos/Diablo.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
 }
 
 .kratos:hover{
@@ -481,10 +548,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .kratos:hover{
+        background-image: url("../img/Videojuegos/GodOfWar.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
+}
+
 .theLast:hover{
     background-image: url("../img/Videojuegos/TheLastOfUs.jpg");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .theLast:hover{
+        background-image: url("../img/Videojuegos/TheLastOfUs.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
 }
 
 .NFS:hover{
@@ -493,10 +576,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .NFS:hover{
+        background-image: url("../img/Videojuegos/NFS.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }  
+}
+
 .sonic:hover{
     background-image: url("../img/Videojuegos/Sonic.jpg");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .sonic:hover{
+        background-image: url("../img/Videojuegos/Sonic.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
 }
 
 .MGS:hover{
@@ -505,10 +604,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) { /* comportamiento en dispositivos móviles */
+    .MGS:hover{
+        background-image: url("../img/Videojuegos/MetalGear.png");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
+}
+
 .starcraft:hover{
     background-image: url("../img/Videojuegos/Starcraft.jpg");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .starcraft:hover{
+        background-image: url("../img/Videojuegos/Starcraft.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }  
 }
 
 .bloodborne:hover{
@@ -517,10 +632,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .bloodborne:hover{
+        background-image: url("../img/Videojuegos/Bloodborne.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
+}
+
 .zelda:hover{
     background-image: url("../img/Videojuegos/Zelda.jpg");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .zelda:hover{
+        background-image: url("../img/Videojuegos/Zelda.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
 }
 
 .gears:hover{
@@ -529,10 +660,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .gears:hover{
+        background-image: url("../img/Videojuegos/Gears.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
+}
+
 .pikachu:hover{
     background-image: url("../img/Videojuegos/Pikachu.png");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .pikachu:hover{
+        background-image: url("../img/Videojuegos/Pikachu.png");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }  
 }
 
 .resident:hover{
@@ -541,10 +688,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .resident:hover{
+        background-image: url("../img/Videojuegos/Resident.jpg");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
+}
+
 .kart:hover{
     background-image: url("../img/Videojuegos/Mario\ kart.png");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .kart:hover{
+        background-image: url("../img/Videojuegos/Mario\ kart.png");
+        height: 25.5em;
+        border-radius: 1.5em;
+    }
 }
 
 .assasin:hover{
@@ -553,10 +716,26 @@ body{
     border-radius: 1.5em;
 }
 
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .assasin:hover{
+        background-image: url("../img/Videojuegos/Assassin.png");
+        height: 25.5em;
+        border-radius: 1.5em;
+    } 
+}
+
 .lol:hover{
     background-image: url("../img/Videojuegos/Lol.png");
     height: 24em;
     border-radius: 1.5em;
+}
+
+@media (max-width: 1600px) and (min-width: 800px) { /* comportamiento en dispositivos móviles */
+    .lol:hover{
+        background-image: url("../img/Videojuegos/Lol.png");
+        height: 24em;
+        border-radius: 1.5em;
+    }
 }
 
 /* ofertas */
