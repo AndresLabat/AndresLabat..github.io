@@ -78,7 +78,7 @@ body{
 
 .divImgUbication{
     height: 3em;
-    width: 3.5em;
+    width: 3em;
 }
 
 .divImgUbication img{
@@ -87,10 +87,9 @@ body{
 }
 
 .city{
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
-    font-size: larger;
 }
 
 /* Carousel Index */
