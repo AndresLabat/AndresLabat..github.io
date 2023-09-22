@@ -276,7 +276,6 @@ Puedes hacer esto de la siguiente forma:
 
 - **Nombre**: Andrés Labat Beltrán
 - **Fecha de Comienzo del Proyecto**: 14/09/2023
-- **Teléfono de Contacto**: 650 68 29 61
 - **Email**: andreslabat89@gmail.com.
 - **Linkedin**: www.linkedin.com/in/andres-labat-beltran-99a082292.
 
